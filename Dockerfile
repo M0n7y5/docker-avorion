@@ -21,7 +21,7 @@ RUN mkdir -p /home/steam/avorion-server \
  && /home/steam/steamcmd/steamcmd.sh \
                 +login anonymous \
 				+force_install_dir /home/steam/avorion-server \
-				+app_update 565060 validate \
+				+app_update 565060 -beta beta validate \
 				+quit
 
 # Ports required

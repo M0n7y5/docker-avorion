@@ -27,14 +27,14 @@ Starting the server
 
 Run the following to start the server.
 ```
-docker run --name avorion -d -v `pwd`/data:/home/steam/.avorion/galaxies/avorion_galaxy -p 27000:27000 -p 27000:27000/udp -p 27003:27003 -p 27003:27003/udp -p 27020:27020 -p 27022:27022 lukas1818/avorion
+docker run --name avorion -d -v `pwd`/data:/home/steam/.avorion/galaxies/avorion_galaxy -p 27000:27000 -p 27000:27000/udp -p 27003:27003/udp -p 27020:27020/udp -p 27022:27022/udp m0n7y5/avorion-beta
 ```
 or use docker-compose:
 ```
 version: '3.3'
 services:
     avorion-docker:
-        image: lukas1818/avorion  
+        image: m0n7y5/avorion-beta
         container_name: avorion
         volumes:
             - './data:/home/steam/.avorion/galaxies/avorion_galaxy'

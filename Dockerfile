@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-LABEL git=https://github.com/M0n7y5/docker-avorion
+LABEL git=https://github.com/Lukas1818/docker-avorion
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -27,9 +27,8 @@ RUN mkdir -p /home/steam/avorion-server \
 # Ports required
 EXPOSE 27000
 EXPOSE 27000/udp
-EXPOSE 27003
 EXPOSE 27003/udp
-EXPOSE 27020
-EXPOSE 27021
+EXPOSE 27020/udp
+EXPOSE 27021/udp
 
 CMD ["/home/steam/avorion-server/server.sh"]

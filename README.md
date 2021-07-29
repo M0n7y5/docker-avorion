@@ -1,5 +1,5 @@
-[![Docker Automated build](https://img.shields.io/docker/cloud/automated/lukas1818/avorion?style=flat-square)](https://hub.docker.com/r/lukas1818/avorion)
-[![Docker Pulls](https://img.shields.io/docker/pulls/lukas1818/avorion.svg?style=flat-square)](https://hub.docker.com/r/lukas1818/avorion)
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/m0n7y5/avorion-beta?style=flat-square)](https://hub.docker.com/r/m0n7y5/avorion-beta)
+[![Docker Pulls](https://img.shields.io/docker/pulls/m0n7y5/avorion-beta.svg?style=flat-square)](https://hub.docker.com/r/m0n7y5/avorion-beta)
 
 Avorion[Beta Branch] for Docker
 ==================

@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-LABEL git=https://github.com/Lukas1818/docker-avorion
+LABEL git=https://github.com/M0n7y5/docker-avorion
 
 ENV DEBIAN_FRONTEND noninteractive
 

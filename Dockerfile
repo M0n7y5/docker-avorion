@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:buster-slim
 
 LABEL git=https://github.com/M0n7y5/docker-avorion
 

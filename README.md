@@ -27,7 +27,7 @@ Starting the server
 
 Run the following to start the server.
 ```
-docker run --name avorion -d -v `pwd`/data:/home/steam/.avorion/galaxies/avorion_galaxy -p 27000:27000 -p 27000:27000/udp -p 27003:27003/udp -p 27020:27020/udp -p 27022:27022/udp m0n7y5/avorion-beta
+docker run --name avorion -d -v `pwd`/data:/home/steam/.avorion/galaxies/avorion_galaxy -p 27000:27000 -p 27000:27000/udp -p 27003:27003/udp -p 27020:27020/udp -p 27021:27021/udp m0n7y5/avorion-beta
 ```
 or use docker-compose:
 ```
@@ -41,10 +41,9 @@ services:
         ports:
             - '27000:27000'
             - '27000:27000/udp'
-            - '27003:27003'
             - '27003:27003/udp'
-            - '27020:27020'
-            - '27022:27022'
+            - '27020:27020/udp'
+            - '27022:27021/udp'
         restart: unless-stopped
 ```
 
